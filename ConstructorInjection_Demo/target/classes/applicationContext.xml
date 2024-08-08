@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<beans>
+		<bean id="e1" class="com.ConstructorInjection_Demo.entity.Employee">
+			<constructor-arg value="101"></constructor-arg>
+			<constructor-arg value="ram"></constructor-arg>
+			<constructor-arg value="1400.0"></constructor-arg>
+			<constructor-arg value="01"></constructor-arg>
+		</bean>
+		
+		<bean id="e2" class="com.ConstructorInjection_Demo.entity.Employee">
+			<constructor-arg value="102"></constructor-arg>
+			<constructor-arg value="shyam"></constructor-arg>
+			<constructor-arg value="1400.0"></constructor-arg>
+			<constructor-arg value="01"></constructor-arg>
+		</bean>
+	</beans>
+
+</beans>
